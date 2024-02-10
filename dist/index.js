@@ -24,4 +24,11 @@ worker.id = 10;
 let kgToLbs = (weight) => {
     return ((typeof weight === "number" ? weight * 2.20462 : parseInt(weight)) * 2.20462);
 };
+let draggableAndDroppable = {
+    drag: () => { },
+    drop: () => { },
+};
+let value = 50;
+let value1 = 100;
+let metric = "kg";
 //# sourceMappingURL=index.js.map
